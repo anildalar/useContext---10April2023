@@ -1,0 +1,19 @@
+What is the Problem?
+
+How you can share the data in deep nested pages?
+
+A.js (state  name="Anil")
+		 B.js name="Anil"
+					C.js name="Anil"
+							.... name="Anil"
+									...
+												Z.js name="Anil"
+
+Solution
+1. Prop Drilling (Not recomended)
+		What is props(properties) drilliing
+
+		Sending data/state from top parent to deep child via props is called prop drilling
+2. useContext (Best way/Efficent)
+
+	2.1 We have to Create Context at the top level parent
